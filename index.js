@@ -37,9 +37,11 @@
   }
 
   const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
-
-function exerciseDog(dogName, dogBreed){
-  for (const fn of routine){
-    fn+=(dogName, dogBreed);
+  const arr = [];
+function exerciseDog(dogName, dogBreed, routine, arr){
+  for (let i = 0 ; i<routine.length ; i++){
+    arr += routine[i](dogName, dogBreed);
   }
 }
+
+exerciseDog("Bryon","poodle",routine, arr);
