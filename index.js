@@ -1,7 +1,5 @@
 const routine =[
 
-
-
   function wakeDog(dogName, dogBreed){
       console.log(`Wake ${dogName} the ${dogBreed}`);
       let msg = `Wake ${dogName} the ${dogBreed}`;
@@ -37,4 +35,4 @@ const routine =[
       let msg = `Unleash ${dogName} the ${dogBreed}`;
       return msg;
   }
-]
+];
