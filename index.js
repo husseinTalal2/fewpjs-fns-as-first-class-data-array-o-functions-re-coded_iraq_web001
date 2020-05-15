@@ -40,6 +40,7 @@
   console.log(routine.length);
   const arr = [];
 function exerciseDog(dogName, dogBreed, routine, arr){
+  console.log(routine.length);
   for (let i = 0 ; i<routine.length ; i++){
     arr += routine[i](dogName, dogBreed);
   }
