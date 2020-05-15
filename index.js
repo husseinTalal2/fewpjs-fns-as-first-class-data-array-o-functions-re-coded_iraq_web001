@@ -37,6 +37,7 @@
   }
 
   const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+  console.log(routine.length);
   const arr = [];
 function exerciseDog(dogName, dogBreed, routine, arr){
   for (let i = 0 ; i<routine.length ; i++){
