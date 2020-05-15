@@ -47,4 +47,4 @@
     return arr;
   }
 
-  exerciseDog("Bryon","poodle",routine, arr);
+  exerciseDog("Bryon","poodle");
