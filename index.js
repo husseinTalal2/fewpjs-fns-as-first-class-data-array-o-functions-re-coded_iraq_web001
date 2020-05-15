@@ -1,4 +1,4 @@
-const routine = {
+const routine =[ 
 
 
 
@@ -37,4 +37,4 @@ const routine = {
       let msg = `Unleash ${dogName} the ${dogBreed}`;
       return msg;
   }
-}
+]
