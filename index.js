@@ -35,3 +35,7 @@
       let msg = `Unleash ${dogName} the ${dogBreed}`;
       return msg;
   }
+
+  const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome, unleashDog];
+
+  
